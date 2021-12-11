@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy bird</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body class="imgg">
+
+
+    <div id="game">
+
+        <div id="block"></div>
+        <div id="hole"></div>
+        <div id="bird"><img src="birdbb.png" alt="" srcset=""></div>
+    </div>
+     <div id="result">
+         <h1>Game over</h1>
+         <p id="text"></p>
+         <button id="btn" onclick="location.reload()">Restart</button>
+     </div>
+
+     <div class="le">
+   <button type="button" onclick="popUp()" name="button" class="btnn">info</button>
+   <button type="button" class="btn1"  name="button" ><a style="text-decoration:none;" href="https://desolate-dawn-08511.herokuapp.com/">Return</a></button>
+
+     </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
