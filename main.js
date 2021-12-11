@@ -71,3 +71,4 @@ hole.addEventListener("animationiteration", hol)
 
 
  window.addEventListener("keydown", jump)
+window.addEventListener("click",jump)
